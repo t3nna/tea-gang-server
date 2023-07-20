@@ -4,11 +4,5 @@ package-lock.json
 .idea
 
 
-db/**/*
-!db/.gitkeep
-!db/svg
-
-db/svg/*
-!db/svg/.gitkeep
 
 .DS_Store
