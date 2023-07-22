@@ -2,14 +2,18 @@
   "name": "teagang-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js"
   },
   "author": "t3nna",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "express-rate-limit": "^6.8.0",
+    "express-slow-down": "^1.6.0",
+    "helmet": "^7.0.0",
     "nodemon": "^3.0.1"
   }
 }
